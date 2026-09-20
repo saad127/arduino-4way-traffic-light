@@ -20,10 +20,10 @@ Each state is transmitted as two bytes (`reg2` for East-West, `reg1` for North-S
 | **East / West (reg2)** | Bit 0 & 3 | Bit 1 & 4 | Bit 2 & 5 |
 
 ### State Sequence
-1. **Phase 1:** North-South Green (`B00001001`), East-West Red (`B00100100`) [5000 ms]
-2. **Phase 2:** North-South Yellow (`B00010010`), East-West Red+Yellow (`B00110110`) [2000 ms]
-3. **Phase 3:** North-South Red (`B00100100`), East-West Green (`B00001001`) [5000 ms]
-4. **Phase 4:** North-South Red+Yellow (`B00110110`), East-West Yellow (`B00010010`) [2000 ms]
+1. **Phase 1:** North-South Green (`B00100100`), East-West Red (`B00001001`) [10000 ms]
+2. **Phase 2:** North-South Yellow (`B00010010`), East-West Red+Yellow (`B00011011`) [5000 ms]
+3. **Phase 3:** North-South Red (`B00001001`), East-West Green (`B00100100`) [10000 ms]
+4. **Phase 4:** North-South Red+Yellow (`B00011011`), East-West Yellow (`B00010010`) [5000 ms]
 
 ## Circuit Diagram
 ![Circuit Diagram](circuit.png)
