@@ -16,8 +16,8 @@ Each state is transmitted as two bytes (`reg2` for East-West, `reg1` for North-S
 
 | Direction | Red Bit | Orange/Yellow Bit | Green Bit |
 | :--- | :---: | :---: | :---: |
-| **North / South (reg1)** | Bit 2 & 5 | Bit 1 & 4 | Bit 0 & 3 |
-| **East / West (reg2)** | Bit 2 & 5 | Bit 1 & 4 | Bit 0 & 3 |
+| **North / South (reg1)** | Bit 0 & 3 | Bit 1 & 4 | Bit 2 & 5 |
+| **East / West (reg2)** | Bit 0 & 3 | Bit 1 & 4 | Bit 2 & 5 |
 
 ### State Sequence
 1. **Phase 1:** North-South Green (`B00001001`), East-West Red (`B00100100`) [5000 ms]
