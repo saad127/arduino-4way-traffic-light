@@ -26,7 +26,7 @@ Each state is transmitted as two bytes (`reg2` for East-West, `reg1` for North-S
 4. **Phase 4:** North-South Red+Yellow (`B00110110`), East-West Yellow (`B00010010`) [2000 ms]
 
 ## Circuit Diagram
-*(Add your Tinkercad screenshot or schematic here)*
+![Circuit Diagram](circuit.png)
 
 ## How to Run
 1. Open `traffic_light.ino` in the Arduino IDE.
